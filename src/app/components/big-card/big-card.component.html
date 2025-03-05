@@ -1,20 +1,20 @@
 <div class="container__big-card">
   <div class="big-card__photo">
 
-    <img src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/35/1370035-i-933c1544afc0"
+    <img [src]="photoCover"
     alt=""
     height="200px">
   </div>
 
   <div class="big-card__title">
     <h1>
-      <a href="#">Saiu a nova versão do Angular</a>
+      <a href="#">{{ cardTitle }}</a>
   </h1>
 
   </div>
   <div class="big-card__description">
     <p>
-      <a href="#">bla bla bla bla blabla blasfkaskfsakfsakfaskfaksfak</a>
+      <a href="#">{{ cardDescription }}</a>
     </p>
 
   </div>
