@@ -3,6 +3,8 @@
   width: 100%;
   height: 100vh;
 
+  margin-top: 20px;
+
   display: flex;
   flex-direction: column;
 
@@ -26,6 +28,3 @@
   color: rgb(198, 197, 197);
 }
 
-hr {
-  margin-top:25px;
-}
